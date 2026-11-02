@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="650" viewBox="0 0 560 650" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="280" y1="0" x2="280" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#eae1ca"/><stop offset="1" stop-color="#f0eadc"/></linearGradient>
+    <linearGradient id="sun" x1="281" y1="134" x2="281" y2="328" gradientUnits="userSpaceOnUse"><stop stop-color="#d5aa62"/><stop offset="1" stop-color="#e0bf83"/></linearGradient>
+    <linearGradient id="hill" x1="410" y1="359" x2="259" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#9ca98b"/><stop offset="1" stop-color="#74896d"/></linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+    <clipPath id="frame"><path d="M0 280a280 280 0 0 1 560 0v370H0Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="url(#sky)" d="M0 0h560v650H0z"/>
+    <g stroke="#c6ba9d" stroke-width=".8" opacity=".65"><circle cx="280" cy="239" r="149"/><circle cx="280" cy="239" r="168"/><path d="M280 26v28M71 239H44m472 0h-27M132 91l19 19m258 0 19-19"/></g>
+    <circle cx="280" cy="239" r="96" fill="url(#sun)"/>
+    <path d="M-50 386c108-108 185-126 295-43s181 43 365-49v356H-50Z" fill="#c6cbb0"/>
+    <path d="M-30 426c125-29 170 46 278 5s182-127 343-64v283H-30Z" fill="url(#hill)"/>
+    <path d="M-40 509c130-107 253-47 323 3s142 47 317-6v144H-40Z" fill="#526f58"/>
+    <path d="M300 392c-91 46-116 77-59 111 53 32 112 49 116 147H199c64-73 47-105 5-130-74-45-24-87 96-128Z" fill="#ded4b6"/>
+    <path d="M300 392c-108 55-127 84-80 120s90 61 54 138" stroke="#f0e8d1" stroke-width="2" opacity=".65"/>
+    <g stroke="#2f4d3b" stroke-width="2" stroke-linecap="round">
+      <path d="M470 663c-9-75-3-142 40-226"/>
+      <path d="M483 518c-32 0-48-20-45-45 26 2 44 21 45 45Z" fill="#3e5b43"/>
+      <path d="M493 488c27 3 47-12 51-35-27-4-46 12-51 35Z" fill="#667d57"/>
+      <path d="M475 554c31 2 53-18 54-45-29-1-51 19-54 45Z" fill="#667d57"/>
+      <path d="M472 591c-33-4-52-28-45-55 30 5 47 27 45 55Z" fill="#3e5b43"/>
+      <path d="M473 622c31-3 50-24 47-51-28 3-48 24-47 51Z" fill="#667d57"/>
+      <path d="M505 458c-21-9-27-28-17-48 20 9 25 27 17 48Z" fill="#3e5b43"/>
+    </g>
+    <path d="M0 0h560v650H0z" fill="#a89874" opacity=".17" filter="url(#grain)"/>
+  </g>
+</svg>
