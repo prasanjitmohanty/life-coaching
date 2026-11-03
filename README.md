@@ -20,6 +20,6 @@ Confirm the copy and coaching focus areas with Swarnlata. Once verified contact 
 
 ## Design and accessibility
 
-The design uses an ivory, forest, sage, and terracotta palette, system sans-serif and Georgia typography, and original landscape/leaf artwork instead of an invented portrait. Internal section links work without JavaScript. FAQs use native `details`/`summary`; keyboard focus, a skip link, reduced-motion preferences, mobile layouts, and print styles are supported.
+The premium corporate identity uses navy, champagne gold, warm ivory, and deep sage, with a rising-line wordmark, system sans-serif and Georgia typography, and original landscape artwork. Internal section links work without JavaScript. FAQs use native `details`/`summary`; keyboard focus, a skip link, reduced-motion preferences, mobile layouts, and print styles are supported.
 
 The supplied text-extract analysis of the four reference websites informed the content structure: empathetic entry points and clear service areas from lifecoachramandiep.com, specificity and a short process from shipraojha.com, strengths-oriented reflection from abhilashadwivedimetamind.com, and concise benefit-led sections from coachswami.com. This is not a visual reproduction. No reference text, portraits, testimonials, credentials, or commercial promises are reused.
